@@ -1,0 +1,15 @@
+
+###
+Given two integer numbers return their product only if the product is equal to or lower than 1000, else return their sum.
+###
+def task():
+    number1 = int(input())
+    number2 = int(input())
+    sume = number1 + number2
+    multi = number1*number2
+    if multi <= 1000:
+        print ('the result is ',multi)
+    else:
+        print('result is ', sume)
+        
+task()
